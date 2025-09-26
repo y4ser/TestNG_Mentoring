@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Contact List">
+        <parameter name="email" value="johndoeSDA@yahoo.com"> </parameter>
+        <parameter name="password" value="John.123"> </parameter>
+        <parameter name="firstname" value="Yaser"> </parameter>
+        <parameter name="lastname" value="3029"> </parameter>
+        <classes>
+            <class name="tests.C09_ContactList"> </class>
+        </classes>
+    </test>
+</suite>
